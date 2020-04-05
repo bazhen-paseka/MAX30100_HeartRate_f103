@@ -1,0 +1,3 @@
+[submodule "Drivers/max30100_sm"]
+	path = Drivers/max30100_sm
+	url = https://github.com/bazhen-paseka/max30100_sm.git
