@@ -4,3 +4,6 @@
 [submodule "Drivers/lcd1602_fc113_sm"]
 	path = Drivers/lcd1602_fc113_sm
 	url = https://github.com/bazhen-paseka/lcd1602_fc113_sm.git
+[submodule "Drivers/bh1750_sm"]
+	path = Drivers/bh1750_sm
+	url = https://github.com/bazhen-paseka/bh1750_sm.git
