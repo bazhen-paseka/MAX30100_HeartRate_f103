@@ -60,6 +60,9 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define LED_BOARD_Pin GPIO_PIN_0
 #define LED_BOARD_GPIO_Port GPIOB
+#define MAX30100_IRQ_Pin GPIO_PIN_4
+#define MAX30100_IRQ_GPIO_Port GPIOB
+#define MAX30100_IRQ_EXTI_IRQn EXTI4_IRQn
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
