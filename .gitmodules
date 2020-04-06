@@ -1,3 +1,6 @@
 [submodule "Drivers/max30100_sm"]
 	path = Drivers/max30100_sm
 	url = https://github.com/bazhen-paseka/max30100_sm.git
+[submodule "Drivers/lcd1602_fc113_sm"]
+	path = Drivers/lcd1602_fc113_sm
+	url = https://github.com/bazhen-paseka/lcd1602_fc113_sm.git

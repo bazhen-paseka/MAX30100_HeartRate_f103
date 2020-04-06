@@ -38,6 +38,8 @@
 								<option id="gnu.c.compiler.option.debugging.level.245954353" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.1514131599" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="../Inc"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Drivers/Local_config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Drivers/lcd1602_fc113_sm}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Drivers/max30100_sm}&quot;"/>
 									<listOptionValue builtIn="false" value="../Drivers/STM32F1xx_HAL_Driver/Inc"/>
 									<listOptionValue builtIn="false" value="../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
@@ -228,8 +230,9 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
-		<configuration artifactName="${ProjName}" configurationName="Debug">
-			<resource resourceType="PROJECT" workspacePath="MAX30100_HeartRate_f103"/>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/MAX30100_HeartRate_f103"/>
 		</configuration>
+		<configuration configurationName="Release"/>
 	</storageModule>
 </cproject>
